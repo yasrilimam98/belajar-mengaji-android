@@ -1,0 +1,226 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:2:1-89:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/23b830934e8959808469701f0a183257/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a154b2672948530d67cef798cd5d5eb4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bffe77dcb075d4f44b55d1dc6e6ec879/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7a49b6f1075db83416af08d38ebd1820/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/4a4712d4ab2a2be962a70fb66b93be12/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f1b50b0610cccfa4cbd474d1e257e20c/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/dbb06a14e7e683de7e54acefa2653aaa/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:2:1-89:12
+	package
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:8:22-76
+application
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:10:5-87:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/23b830934e8959808469701f0a183257/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/23b830934e8959808469701f0a183257/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a154b2672948530d67cef798cd5d5eb4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a154b2672948530d67cef798cd5d5eb4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bffe77dcb075d4f44b55d1dc6e6ec879/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bffe77dcb075d4f44b55d1dc6e6ec879/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7a49b6f1075db83416af08d38ebd1820/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7a49b6f1075db83416af08d38ebd1820/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/4a4712d4ab2a2be962a70fb66b93be12/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/4a4712d4ab2a2be962a70fb66b93be12/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f1b50b0610cccfa4cbd474d1e257e20c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f1b50b0610cccfa4cbd474d1e257e20c/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/dbb06a14e7e683de7e54acefa2653aaa/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/dbb06a14e7e683de7e54acefa2653aaa/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:12:9-45
+	android:allowBackup
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:14:9-68
+activity#com.gamewae.iqra.HintActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:17:9-26:20
+	android:screenOrientation
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:20:13-49
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.gamewae.iqra.MenuIqraActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:27:9-31:20
+	android:screenOrientation
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:30:13-49
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:28:13-45
+activity#com.gamewae.iqra.BookActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:32:9-36:20
+	android:screenOrientation
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:35:13-49
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:34:13-56
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:33:13-41
+activity#com.gamewae.iqra.SectionActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:37:9-41:20
+	android:screenOrientation
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:40:13-49
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:39:13-59
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:38:13-44
+activity#com.gamewae.iqra.ChildListActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:42:9-46:20
+	android:screenOrientation
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:45:13-49
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:44:13-62
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:43:13-46
+activity#com.gamewae.iqra.LoginActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:47:9-51:20
+	android:screenOrientation
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:49:13-62
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:48:13-42
+activity#com.gamewae.iqra.SectionViewActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:52:9-56:20
+	android:screenOrientation
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:55:13-49
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:54:13-64
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:53:13-48
+activity#com.gamewae.iqra.FinishPageActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:57:9-61:20
+	android:screenOrientation
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:60:13-49
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:59:13-63
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:58:13-47
+activity#com.gamewae.iqra.PageListActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:62:9-66:20
+	android:screenOrientation
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:65:13-49
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:64:13-61
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:63:13-45
+activity#com.gamewae.iqra.MainActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:67:9-71:20
+	android:screenOrientation
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:70:13-49
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:69:13-56
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:68:13-41
+activity#com.gamewae.iqra.TutorActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:72:9-77:20
+	android:screenOrientation
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:75:13-49
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:74:13-57
+	android:theme
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:76:13-72
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:73:13-42
+activity#com.gamewae.iqra.DonasiActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:78:9-81:20
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:80:13-58
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:79:13-43
+activity#com.gamewae.iqra.SettingActivity
+ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:83:9-86:20
+	android:label
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:85:13-59
+	android:name
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml:84:13-44
+uses-sdk
+INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v4:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/23b830934e8959808469701f0a183257/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/23b830934e8959808469701f0a183257/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a154b2672948530d67cef798cd5d5eb4/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a154b2672948530d67cef798cd5d5eb4/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bffe77dcb075d4f44b55d1dc6e6ec879/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bffe77dcb075d4f44b55d1dc6e6ec879/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7a49b6f1075db83416af08d38ebd1820/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7a49b6f1075db83416af08d38ebd1820/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/4a4712d4ab2a2be962a70fb66b93be12/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/4a4712d4ab2a2be962a70fb66b93be12/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f1b50b0610cccfa4cbd474d1e257e20c/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f1b50b0610cccfa4cbd474d1e257e20c/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/dbb06a14e7e683de7e54acefa2653aaa/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/dbb06a14e7e683de7e54acefa2653aaa/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/23b830934e8959808469701f0a183257/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/23b830934e8959808469701f0a183257/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a154b2672948530d67cef798cd5d5eb4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a154b2672948530d67cef798cd5d5eb4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bffe77dcb075d4f44b55d1dc6e6ec879/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/bffe77dcb075d4f44b55d1dc6e6ec879/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7a49b6f1075db83416af08d38ebd1820/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7a49b6f1075db83416af08d38ebd1820/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/4a4712d4ab2a2be962a70fb66b93be12/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/4a4712d4ab2a2be962a70fb66b93be12/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f1b50b0610cccfa4cbd474d1e257e20c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f1b50b0610cccfa4cbd474d1e257e20c/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/23b830934e8959808469701f0a183257/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/23b830934e8959808469701f0a183257/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/dbb06a14e7e683de7e54acefa2653aaa/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/dbb06a14e7e683de7e54acefa2653aaa/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/devfx/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/dbb06a14e7e683de7e54acefa2653aaa/AndroidManifest.xml:26:13-58

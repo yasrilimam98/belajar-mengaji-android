@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:textColor="@color/putih_gelap2"
+        android:text="Triono Putra" />
+    
+    
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/putih_gelap2"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:layout_toLeftOf="@+id/imageButton1"
+        android:text="TextView" />
+
+     <com.gamewae.iqra.widget.CustomImageButton
+         android:id="@+id/imageButton1"
+         android:layout_width="25dp"
+         android:layout_height="25dp"
+         android:scaleType="fitCenter"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:background="@null"
+         android:focusable="false"
+         android:focusableInTouchMode="false"
+         android:descendantFocusability="blocksDescendants"
+         android:src="@drawable/ic_delete" />
+
+</RelativeLayout>

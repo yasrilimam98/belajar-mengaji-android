@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_red"
+    tools:context="${relativePackage}.${activityClass}" >
+
+  
+       <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/putih"
+        android:textSize="40dp"
+        android:text="@string/nilai_akhir" />
+      
+     <LinearLayout  android:layout_width="match_parent"
+	        			android:layout_height="match_parent"
+	        			  android:layout_marginBottom="50dp"
+        				android:layout_below="@+id/textView1"
+        				android:gravity="center"
+        				android:orientation="vertical">
+
+         <TextView
+             android:id="@+id/txtscore"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/putih"
+             android:textSize="100dp"
+             android:text="0" />
+
+         <ImageView
+             android:id="@+id/imgStar"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/star_empty" />
+         
+     </LinearLayout>
+    
+    
+    <RelativeLayout  
+        			 android:id="@+id/bottomMenu"
+        			 android:layout_width="match_parent"
+        			 android:layout_alignParentBottom="true"
+        			 android:background="@color/bg"
+        			 android:layout_height="60dp">
+       
+        <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="@color/list_sparator" android:layout_alignParentTop="true"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/putih_gelap2"
+            android:background="@drawable/btn_text_state"
+            android:visibility="gone"
+            android:text="@string/next" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnNext"
+            android:textColor="@color/putih_gelap2"
+            android:visibility="gone"
+             android:background="@drawable/btn_text_state"
+            android:text="@string/exit2" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

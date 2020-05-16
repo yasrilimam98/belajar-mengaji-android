@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/item_transparan"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/editText1"
+       android:layout_width="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="45dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="@string/input_pin"
+        android:ems="10"
+        android:textCursorDrawable="@drawable/white_cursor"
+        android:textColor="@color/putih"
+        android:textColorHint="@color/text_hit"
+        android:background="@drawable/tes_edit_text_holo_light"
+        android:inputType="numberPassword" >
+        <requestFocus />
+    </EditText>
+      
+     <EditText android:id="@+id/editText2"
+       android:layout_width="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="45dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="@string/pin_confirm"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="10dp"
+         android:textCursorDrawable="@drawable/white_cursor"
+        android:ems="10"
+        android:textColor="@color/putih"
+        android:textColorHint="@color/text_hit"
+        android:background="@drawable/tes_edit_text_holo_light"
+        android:inputType="numberPassword" >
+    </EditText>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/orangtua" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/putih"
+        android:textSize="30dp"
+        android:text="@string/buat_pin_pengajar" />
+
+    <Button
+        android:id="@+id/btnMulai"
+        android:layout_width="250dp"
+	    android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/mulai_mengajar"
+        android:background="@drawable/btn_white_state"
+        android:textColor="@color/item" />
+
+</RelativeLayout>

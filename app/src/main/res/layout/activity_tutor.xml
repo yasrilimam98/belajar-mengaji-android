@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/item_transparan"
+    tools:context="${relativePackage}.${activityClass}" >
+	 
+    
+   <com.gamewae.iqra.widget.CustomImageButton
+	 	     android:id="@+id/btnExit"
+	 	     android:layout_width="wrap_content"
+	 	     android:layout_height="wrap_content"
+	 	     android:layout_alignParentTop="true"
+	 	     android:layout_alignParentRight="true"
+	 	     android:layout_marginTop="10dp"
+	 	     android:layout_marginRight="10dp"
+	 	     android:background="@null"
+	 	     android:scaleType="fitCenter"
+	 	     android:adjustViewBounds="true"
+	 	     android:src="@drawable/ic_exit" />
+	
+   
+	 <android.support.v4.view.ViewPager
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:app="http://schemas.android.com/apk/res-auto"
+	    android:id="@+id/viewPager"
+	    android:layout_below="@+id/btnExit"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" />
+	 
+	 	<com.gamewae.iqra.widget.CirclePageIndicator 
+	 	    		xmlns:app="http://schemas.android.com/apk/res-auto"
+			        android:id="@+id/indicators"
+			        android:padding="15dip"
+			        android:layout_height="wrap_content"
+			        android:layout_width="fill_parent"
+			        android:layout_alignParentBottom="true"
+			        android:layout_marginBottom="85dp"
+			        android:layout_gravity="bottom"
+			        android:background="@null"
+			        app:radius="4dp"
+			        app:fillColor="#FFFFFF"
+			        app:pageColor="#FF999999"
+			        app:strokeColor="#FF999999"
+			        app:strokeWidth="1dp"
+			        android:layout_above="@+id/btnPlaySound"
+			        />
+	 	
+	 	
+	 	 <Button
+	        android:id="@+id/btnPlaySound"
+	        android:layout_width="250dp"
+	        android:layout_height="40dp"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+	        android:layout_marginBottom="30dp"
+	        android:background="@drawable/btn_white_state"
+	        android:text="@string/play_sound" />
+	 	
+</RelativeLayout>

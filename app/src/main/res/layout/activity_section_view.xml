@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+	    android:id="@+id/actionbar"
+	    android:layout_width="match_parent"
+	    android:background="@drawable/gradient_red"
+	    android:layout_height="@dimen/actionbar_height" >
+	
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:textColor="@color/putih"
+	        android:textSize="30dp"
+	        android:text="A" />
+
+	  
+	    <com.gamewae.iqra.widget.CustomImageButton
+	        android:id="@+id/btnInfo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:background="@null"
+	        android:scaleType="fitCenter"
+	        android:adjustViewBounds="true"
+	        android:src="@drawable/ic_tutor" />
+
+	    <com.gamewae.iqra.widget.CustomImageButton
+	        android:id="@+id/btnBack"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:background="@null"
+	        android:scaleType="fitCenter"
+	        android:adjustViewBounds="true"
+	        android:src="@drawable/ic_back" />
+	
+	</RelativeLayout>
+    
+	  <RelativeLayout  android:layout_width="match_parent"
+	        			android:layout_height="wrap_content"
+	        			  android:layout_marginBottom="60dp"
+        				android:layout_below="@+id/actionbar">
+	    
+	      <com.gamewae.iqra.widget.CustomPager
+		        xmlns:android="http://schemas.android.com/apk/res/android"
+		        xmlns:app="http://schemas.android.com/apk/res-auto"
+		        android:id="@+id/viewPager"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_centerInParent="true" />
+
+	      <ImageButton
+	          android:id="@+id/arrowNext"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:layout_alignParentRight="true"
+	          android:layout_centerVertical="true"
+	          android:layout_marginRight="10dp"
+	          android:background="@null"
+	          android:src="@drawable/ic_arrow_next" />
+	      
+	       <ImageButton
+	          android:id="@+id/arrowBack"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:layout_alignParentLeft="true"
+	          android:layout_centerVertical="true"
+	          android:layout_marginLeft="10dp"
+	           android:background="@null"
+	           android:visibility="gone"
+	          android:src="@drawable/ic_arrow_prev" />
+	      
+	  </RelativeLayout>
+    
+
+     <RelativeLayout  
+        			 android:id="@+id/btnScoreWrapper"
+        			 android:layout_width="match_parent"
+        			 android:layout_alignParentBottom="true"
+        			 android:layout_height="60dp">
+       
+        <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="@color/list_sparator" android:layout_alignParentTop="true"/>
+
+
+
+        <Button
+            android:id="@+id/btnKurang"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/red2"
+             android:background="@drawable/btn_text_state"
+            android:text="@string/kurang" />
+        
+
+         <Button
+            android:id="@+id/btnCukup"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnBagus"
+            android:textColor="@color/putih_gelap2"
+             android:background="@drawable/btn_text_state"
+            android:text="@string/cukup" />
+
+          <Button
+            android:id="@+id/btnBagus"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/green2"
+             android:background="@drawable/btn_text_state"
+            android:text="@string/baik" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout  
+        			 android:id="@+id/btnNavWrapper"
+        			 android:layout_width="match_parent"
+        			 android:layout_alignParentBottom="true"
+        			 android:visibility="gone"
+        			 android:layout_height="60dp">
+       
+        <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="@color/list_sparator" android:layout_alignParentTop="true"/>
+		
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/putih_gelap2"
+             android:background="@drawable/btn_text_state"
+            android:text="@string/next" />
+        
+        
+       <Button
+            android:id="@+id/btnPrev"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/putih_gelap2"
+             android:background="@drawable/btn_text_state"
+            android:text="@string/prev" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

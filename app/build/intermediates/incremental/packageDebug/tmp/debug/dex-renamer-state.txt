@@ -1,0 +1,4 @@
+#Mon Apr 13 13:35:45 WITA 2020
+base.0=/Users/devfx/AndroidStudioProjects/iqro-android-master/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

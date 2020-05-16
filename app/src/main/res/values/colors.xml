@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#303941</color>
+    <color name="item">#212121</color>
+    <color name="putih">#fff</color>
+    <color name="kuning">#FFEB3B</color>
+    <color name="putih_gelap">#dfdfdf</color>
+    <color name="putih_transparan">#33ffffff</color>
+    <color name="item_transparan">#cc000000</color>
+    <color name="text_hit">#616161</color>
+    <color name="list_sparator">#616161</color>
+    <color name="putih_gelap2">#e0e0e0</color>
+    
+     <color name="text_grid">#9e9e9e</color>
+    
+    
+    <color name="blue">#4153b4</color>
+    <color name="brown">#835b4d</color>
+    <color name="green">#029687</color>
+    <color name="oren">#ff5827</color>
+    <color name="red">#e82363</color>
+    <color name="violet">#673cb6</color>
+      <color name="red2">#f44336</color>
+      <color name="green2">#4caf50</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+</resources>

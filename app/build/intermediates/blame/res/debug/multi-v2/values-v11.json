@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/devfx/AndroidStudioProjects/iqro-android-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                },
+                {
+                    "source": "/Users/devfx/AndroidStudioProjects/iqro-android-master/app/src/main/res/values-v11/themes_tes.xml",
+                    "from": {
+                        "startLines": "7,5",
+                        "startColumns": "2,2",
+                        "startOffsets": "213,169",
+                        "endLines": "11,5",
+                        "endColumns": "10,42",
+                        "endOffsets": "365,209"
+                    },
+                    "to": {
+                        "startLines": "5,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "192,349",
+                        "endLines": "9,10",
+                        "endColumns": "10,44",
+                        "endOffsets": "344,389"
+                    }
+                }
+            ]
+        }
+    ]
+}

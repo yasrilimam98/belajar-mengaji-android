@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+    <style name="_tes" parent="android:Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/tes_edit_text_holo_light</item>
+
+  </style>
+    <style name="tes" parent="@style/_tes"/>
+</resources>

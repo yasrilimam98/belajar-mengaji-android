@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="bg">#303941</color>
+    <color name="blue">#4153b4</color>
+    <color name="brown">#835b4d</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="green">#029687</color>
+    <color name="green2">#4caf50</color>
+    <color name="item">#212121</color>
+    <color name="item_transparan">#cc000000</color>
+    <color name="kuning">#FFEB3B</color>
+    <color name="list_sparator">#616161</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="oren">#ff5827</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="putih">#fff</color>
+    <color name="putih_gelap">#dfdfdf</color>
+    <color name="putih_gelap2">#e0e0e0</color>
+    <color name="putih_transparan">#33ffffff</color>
+    <color name="red">#e82363</color>
+    <color name="red2">#f44336</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="tes_color">#e0e0e0</color>
+    <color name="text_grid">#9e9e9e</color>
+    <color name="text_hit">#616161</color>
+    <color name="violet">#673cb6</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <dimen name="actionbar_height">60dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <dimen name="margin1">8dp</dimen>
+    <dimen name="margin100">60dp</dimen>
+    <dimen name="margin2">16dp</dimen>
+    <dimen name="margin3">24dp</dimen>
+    <dimen name="margin4">32dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="achievement">Achievement</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_child_please">no cildren, please add</string>
+    <string name="admob_interstitial_id">ca-app-pub-2804081175309116/5463113787</string>
+    <string name="aplikasisk">APPS MOBILE EARLY CHILDHOOD SMART</string>
+    <string name="app_name">SmartKids</string>
+    <string name="are_you_sure_want_to_delete">Yakin ingin hapus</string>
+    <string name="baca_sendiri">Belajar Mengaji</string>
+    <string name="back">KEMBALI</string>
+    <string name="baik">BAIK</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2804081175309116/7079447784</string>
+    <string name="book">Book</string>
+    <string name="buat_pin_pengajar">Buat PIN Orang Tua</string>
+    <string name="cancel">CANCEL</string>
+    <string name="child_list">Daftar anak</string>
+    <string name="child_mode">Child Mode</string>
+    <string name="confirmation">konfimasi</string>
+    <string name="cukup">CUKUP</string>
+    <string name="daftar_peserta">Daftar peserta didik</string>
+    <string name="desc_bangun_datar">Terdapat 9 jenis bangun datar pada aplikasi ini. Pilihlah bangun datar dibawah ini untuk membaca teori dan rumusnya serta kalkulator penghitung.</string>
+    <string name="desc_bangun_ruang">Pada aplikasi ini, terdapat 8 pilihan bangun ruang. Pilih diantara bangun ruang berikut untuk membaca teori dan rumusnya serta kalkulator penghitung</string>
+    <string name="desc_main">Geometri merupakan cabang ilmu matematika yang mempelajari tentang hubungan antara titik-titik, garis-garis, bidang-bidang seperti bangun datar dan bangun ruang.</string>
+    <string name="donasi">Belajar Menghitung</string>
+    <string name="donate_us">Donate us</string>
+    <string name="enter_child_name">Enter child name</string>
+    <string name="exit">Exit</string>
+    <string name="exit2">KELUAR</string>
+    <string name="field_cant_be_empty">PIN tidak boleh kosong</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint">Hint</string>
+    <string name="input_pin">input PIN</string>
+    <string name="invalid_pin">PIN salah</string>
+    <string name="jadi_pengajar">Jadi Pengajar</string>
+    <string name="klik_iklan">klik iklan dibawah</string>
+    <string name="kurang">KURANG</string>
+    <string name="login">LOGIN</string>
+    <string name="mulai_mengajar">MULAI MENGAJAR ANAK</string>
+    <string name="name_already_exist">Name already exist</string>
+    <string name="next">SELANJUTNYA</string>
+    <string name="next2">LANJUT</string>
+    <string name="nilai_akhir">Nilai akhir</string>
+    <string name="ok">OK</string>
+    <string name="or">atau</string>
+    <string name="parent_mode">Parent Mode</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="pin_confirm">PIN confirmation</string>
+    <string name="pin_confirm_not_match">konfirmasi PIN tidak sama</string>
+    <string name="pin_created">PIN berhasil dibuat</string>
+    <string name="pin_minimal">PIN minimal 4 digits</string>
+    <string name="play_sound">MAINKAN AUDIO</string>
+    <string name="please_enter_child_name">Please enter child name</string>
+    <string name="prev">SEBELUMNYA</string>
+    <string name="quick_play">Baca Sendiri</string>
+    <string name="select_level">Pilih tingkatan</string>
+    <string name="setting">Setting</string>
+    <string name="start">MULAI</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_book">BookActivity</string>
+    <string name="title_activity_child_list">ChildListActivity</string>
+    <string name="title_activity_donasi">DonasiActivity</string>
+    <string name="title_activity_finish_book">FinishBookActivity</string>
+    <string name="title_activity_hint">HintActivity</string>
+    <string name="title_activity_menu_iqra">MenuIqraActivity</string>
+    <string name="title_activity_page_list">PageListActivity</string>
+    <string name="title_activity_section">SectionActivity</string>
+    <string name="title_activity_section_view">SectionViewActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_tutor">TutorActivity</string>
+    <string name="title_hint_1">Santri Kecil</string>
+    <string name="title_hint_2">Anak Genius</string>
+    <string name="title_text_1">Santri Kecil di TK Al Qur’an Bawa Iqro dan bawa Al Qur’an Rajin Sholat dan Rajin Mengaji Sayang kawan tak suka bermusuhan </string>
+    <string name="title_text_2">Ayo bangkitkan Prestasimu </string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="EditTexttes" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/tes_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+
+  </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Media"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"/>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.Compat.Notification.Title.Media"/>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="_tes" parent="android:Theme.Light">
+
+    <item name="android:editTextStyle">@style/EditTexttes</item>
+
+  </style>
+    <style name="tes" parent="@style/_tes"/>
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered"/>
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr format="color" name="fillColor"/>
+        <!-- Color of the filled circles that represents pages. -->
+        <attr format="color" name="pageColor"/>
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation"/>
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr format="dimension" name="radius"/>
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr format="boolean" name="snap"/>
+        <!-- Color of the open circles. -->
+        <attr format="color" name="strokeColor"/>
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth"/>
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy">
+            
+            <enum name="blocking" value="0"/>
+            
+            <enum name="async" value="1"/>
+        </attr><attr format="integer" name="fontProviderFetchTimeout">
+          
+            <enum name="forever" value="-1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="FontFamilyFont"><attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered"/>
+        <!-- Color of the unselected lines that represent the pages. -->
+        <attr name="unselectedColor"/>
+        <!-- Color of the selected line that represents the current page. -->
+        <attr name="selectedColor"/>
+        <!-- Width of each indicator line. -->
+        <attr format="dimension" name="lineWidth"/>
+        <!-- Width of each indicator line's stroke. -->
+        <attr name="strokeWidth"/>
+        <!-- Width of the gap between each indicator line. -->
+        <attr format="dimension" name="gapWidth"/>
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+    <declare-styleable name="TitlePageIndicator">
+        <!-- Screen edge padding. -->
+        <attr format="dimension" name="clipPadding"/>
+        <!-- Color of the footer line and indicator. -->
+        <attr format="color" name="footerColor"/>
+        <!-- Height of the footer line. -->
+        <attr format="dimension" name="footerLineHeight"/>
+        <!-- Style of the indicator. Default is triangle. -->
+        <attr name="footerIndicatorStyle">
+            <enum name="none" value="0"/>
+            <enum name="triangle" value="1"/>
+            <enum name="underline" value="2"/>
+        </attr>
+        <!-- Height of the indicator above the footer line. -->
+        <attr format="dimension" name="footerIndicatorHeight"/>
+        <!-- Left and right padding of the underline indicator. -->
+        <attr format="dimension" name="footerIndicatorUnderlinePadding"/>
+        <!-- Padding between the bottom of the title and the footer. -->
+        <attr format="dimension" name="footerPadding"/>
+        <!-- Position of the line. -->
+        <attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr>
+        <!-- Color of the selected title. -->
+        <attr name="selectedColor"/>
+        <!-- Whether or not the selected item is displayed as bold. -->
+        <attr format="boolean" name="selectedBold"/>
+        <!-- Color of regular titles. -->
+        <attr name="android:textColor"/>
+        <!-- Size of title text. -->
+        <attr name="android:textSize"/>
+        <!-- Padding between titles when bumping into each other. -->
+        <attr format="dimension" name="titlePadding"/>
+        <!-- Padding between titles and the top of the View. -->
+        <attr format="dimension" name="topPadding"/>
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator">
+        <!-- Whether or not the selected indicator fades. -->
+        <attr format="boolean" name="fades"/>
+        <!-- Length of the delay to fade the indicator. -->
+        <attr format="integer" name="fadeDelay"/>
+        <!-- Length of the indicator fade to transparent. -->
+        <attr format="integer" name="fadeLength"/>
+        <!-- Color of the selected line that represents the current page. -->
+        <attr name="selectedColor"/>
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr format="reference" name="vpiCirclePageIndicatorStyle"/>
+        <!-- Style of the icon indicator's views. -->
+        <attr format="reference" name="vpiIconPageIndicatorStyle"/>
+        <!-- Style of the line indicator. -->
+        <attr format="reference" name="vpiLinePageIndicatorStyle"/>
+        <!-- Style of the title indicator. -->
+        <attr format="reference" name="vpiTitlePageIndicatorStyle"/>
+        <!-- Style of the tab indicator's tabs. -->
+        <attr format="reference" name="vpiTabPageIndicatorStyle"/>
+        <!-- Style of the underline indicator. -->
+        <attr format="reference" name="vpiUnderlinePageIndicatorStyle"/>
+    </declare-styleable>
+</resources>

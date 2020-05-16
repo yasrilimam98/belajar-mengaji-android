@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:textCursorDrawable="@drawable/white_cursor"
+        android:textColor="@color/putih"
+        android:textColorHint="@color/text_hit"
+        android:background="@drawable/tes_edit_text_holo_light"
+        android:hint="@string/enter_child_name"
+        android:inputType="textPersonName" >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/txtname"
+        android:layout_below="@+id/txtname"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/btn_white_state"
+        android:text="@string/ok" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/btnOk"
+        android:layout_alignBottom="@+id/btnOk"
+        android:layout_alignLeft="@+id/txtname"
+        android:background="@drawable/btn_white_state"
+        android:text="@string/cancel" />
+       
+</RelativeLayout>
